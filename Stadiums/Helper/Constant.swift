@@ -15,6 +15,8 @@ struct Constants {
     static let ADMIN_STORYBOARD = "Auth"
     static let USER_TOKEN_KEY = "token"
     static let BACKEND_ERROR = NSError.init(message: "Произошла ошибка, пожалуйста переавторизуйтесь")
+    static let CONNECTION_ERROR = NSError.init(message: "Для получения данных требуется подключение к интернету")
+
     
     static let englishLanguage = "en"
     static let russianLanguage = "ru"

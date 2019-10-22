@@ -25,6 +25,9 @@ class ApiService: NSObject {
     //    MARK:    Одиночка
     static let sharedInstance = ApiService()
     
+    typealias Completion = (_ response: Any?, _ error: Error?) -> ()
+
+    
     //    MARK:    Function to retrieve(query) stadiums from databse.
     //    MARK:    Функция для получения(запрос) информации о stadiums из базы данных.
     func getStadiums(onComplation:@escaping((EventType, Stadium) -> Void),onError:@escaping((String?) -> Void)) {
@@ -96,36 +99,36 @@ class ApiService: NSObject {
     //    MARK:    Function to retrieve(query) notification information from databse.
     //    MARK:    Функция для получения(запрос) информации о бронированиях из базы данных.
 
-    func getBookedRequest(onComplation:@escaping((EventType, BookedModel) -> Void),onError:@escaping((String?) -> Void)) {
-        
-        FIRRefManager.instance.bookingRequestRef.whereField("userId", isEqualTo: (Auth.auth().currentUser?.uid) as Any).whereField("isActive", isEqualTo: false).addSnapshotListener { (querySnapshot, error) in
-            guard let snapshot = querySnapshot else{return}
-            if error != nil{
-                print(error?.localizedDescription as Any)
-                return
-            } else {
-                snapshot.documentChanges.forEach({ (documentChange) in
-                    let value = documentChange.document.data()
-                    if documentChange.type == .added {
-                        if let bookedInfo = Mapper<BookedModel>().map(JSON: value){
-                            bookedInfo.id = documentChange.document.documentID
-                            onComplation(.Added ,bookedInfo)
-                        }
-                    } else if documentChange.type == .modified {
-                        if let bookedInfo = Mapper<BookedModel>().map(JSON: value){
-                            bookedInfo.id = documentChange.document.documentID
-                            onComplation(.Changed ,bookedInfo)
-                        }
-                    } else if documentChange.type == .removed {
-                        if let bookedInfo = Mapper<BookedModel>().map(JSON: value){
-                            bookedInfo.id = documentChange.document.documentID
-                            onComplation(.Removed ,bookedInfo)
-                        }
-                    }
-                })
-            }
-        }
-    }
+//    func getBookedRequest(onComplation:@escaping((EventType, BookedModel) -> Void),onError:@escaping((String?) -> Void)) {
+//
+//        FIRRefManager.instance.bookingRequestRef.whereField("userId", isEqualTo: (Auth.auth().currentUser?.uid) as Any).whereField("isActive", isEqualTo: false).addSnapshotListener { (querySnapshot, error) in
+//            guard let snapshot = querySnapshot else{return}
+//            if error != nil{
+//                print(error?.localizedDescription as Any)
+//                return
+//            } else {
+//                snapshot.documentChanges.forEach({ (documentChange) in
+//                    let value = documentChange.document.data()
+//                    if documentChange.type == .added {
+//                        if let bookedInfo = Mapper<BookedModel>().map(JSON: value){
+//                            bookedInfo.id = documentChange.document.documentID
+//                            onComplation(.Added ,bookedInfo)
+//                        }
+//                    } else if documentChange.type == .modified {
+//                        if let bookedInfo = Mapper<BookedModel>().map(JSON: value){
+//                            bookedInfo.id = documentChange.document.documentID
+//                            onComplation(.Changed ,bookedInfo)
+//                        }
+//                    } else if documentChange.type == .removed {
+//                        if let bookedInfo = Mapper<BookedModel>().map(JSON: value){
+//                            bookedInfo.id = documentChange.document.documentID
+//                            onComplation(.Removed ,bookedInfo)
+//                        }
+//                    }
+//                })
+//            }
+//        }
+//    }
     
     
 }

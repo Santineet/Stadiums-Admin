@@ -33,9 +33,6 @@
 		2E0E7FB32354BFFF00235693 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E7F9E2354BFFF00235693 /* IQNSArray+Sort.swift */; };
 		2E0E7FBA2354C00C00235693 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E7FB62354C00C00235693 /* Auth.storyboard */; };
 		2E0E7FBB2354C00C00235693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E7FB82354C00C00235693 /* Main.storyboard */; };
-		2E0E7FC02354C01700235693 /* ProfileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E7FBD2354C01700235693 /* ProfileInfo.swift */; };
-		2E0E7FC12354C01700235693 /* BookedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E7FBE2354C01700235693 /* BookedModel.swift */; };
-		2E0E7FC22354C01700235693 /* StadiumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E7FBF2354C01700235693 /* StadiumModel.swift */; };
 		2E0E7FC72354C02000235693 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E7FC42354C02000235693 /* ApiService.swift */; };
 		2E0E7FC82354C02000235693 /* LoginLogoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E7FC52354C02000235693 /* LoginLogoutManager.swift */; };
 		2E0E7FC92354C02000235693 /* FIRRefManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E7FC62354C02000235693 /* FIRRefManager.swift */; };
@@ -49,6 +46,14 @@
 		2E0E7FE52354CCC400235693 /* stadiumss.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E7FE32354CCC400235693 /* stadiumss.png */; };
 		2E0E7FE62354CCC400235693 /* profilee.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E7FE42354CCC400235693 /* profilee.png */; };
 		2E0E7FEA2354FB1C00235693 /* ProfileTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E7FE92354FB1C00235693 /* ProfileTVC.swift */; };
+		2E4D52DC2359AED800E9755E /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4D52DB2359AED800E9755E /* TableView.swift */; };
+		2E77A83223589696000F8966 /* AddStadiumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77A83123589696000F8966 /* AddStadiumCell.swift */; };
+		2E77A834235899A4000F8966 /* Rectangle 19 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 2E77A833235899A4000F8966 /* Rectangle 19 (1).png */; };
+		2E77A83623589F7C000F8966 /* MyStadiumsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77A83523589F7C000F8966 /* MyStadiumsTVCell.swift */; };
+		2E77A8392358A051000F8966 /* ProfileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77A8382358A051000F8966 /* ProfileInfo.swift */; };
+		2E77A83B2358A08B000F8966 /* StadiumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77A83A2358A08B000F8966 /* StadiumModel.swift */; };
+		2E77A83E2358A12C000F8966 /* ProfileRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77A83D2358A12B000F8966 /* ProfileRepository.swift */; };
+		2E77A8412358A133000F8966 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77A8402358A133000F8966 /* ProfileViewModel.swift */; };
 		A61AD133B8142A861905AED6 /* Pods_Stadiums.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E204B3DBBCA85F2BA40CF81 /* Pods_Stadiums.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,9 +88,6 @@
 		2E0E7F9E2354BFFF00235693 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
 		2E0E7FB62354C00C00235693 /* Auth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		2E0E7FB92354C00C00235693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2E0E7FBD2354C01700235693 /* ProfileInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileInfo.swift; sourceTree = "<group>"; };
-		2E0E7FBE2354C01700235693 /* BookedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookedModel.swift; sourceTree = "<group>"; };
-		2E0E7FBF2354C01700235693 /* StadiumModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StadiumModel.swift; sourceTree = "<group>"; };
 		2E0E7FC42354C02000235693 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		2E0E7FC52354C02000235693 /* LoginLogoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginLogoutManager.swift; sourceTree = "<group>"; };
 		2E0E7FC62354C02000235693 /* FIRRefManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRRefManager.swift; sourceTree = "<group>"; };
@@ -99,6 +101,14 @@
 		2E0E7FE32354CCC400235693 /* stadiumss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stadiumss.png; sourceTree = "<group>"; };
 		2E0E7FE42354CCC400235693 /* profilee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilee.png; sourceTree = "<group>"; };
 		2E0E7FE92354FB1C00235693 /* ProfileTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTVC.swift; sourceTree = "<group>"; };
+		2E4D52DB2359AED800E9755E /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		2E77A83123589696000F8966 /* AddStadiumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStadiumCell.swift; sourceTree = "<group>"; };
+		2E77A833235899A4000F8966 /* Rectangle 19 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 19 (1).png"; sourceTree = "<group>"; };
+		2E77A83523589F7C000F8966 /* MyStadiumsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStadiumsTVCell.swift; sourceTree = "<group>"; };
+		2E77A8382358A051000F8966 /* ProfileInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileInfo.swift; sourceTree = "<group>"; };
+		2E77A83A2358A08B000F8966 /* StadiumModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StadiumModel.swift; sourceTree = "<group>"; };
+		2E77A83D2358A12B000F8966 /* ProfileRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileRepository.swift; sourceTree = "<group>"; };
+		2E77A8402358A133000F8966 /* ProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		4E204B3DBBCA85F2BA40CF81 /* Pods_Stadiums.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stadiums.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2523D9CFCB1ADB8512F5D37 /* Pods-Stadiums.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stadiums.debug.xcconfig"; path = "Target Support Files/Pods-Stadiums/Pods-Stadiums.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,7 +165,6 @@
 			children = (
 				2E0E7FC32354C02000235693 /* Service */,
 				2E0E7F822354BFFF00235693 /* Helper */,
-				2E0E7FBC2354C01700235693 /* Model */,
 				2E0E7FB42354C00C00235693 /* View */,
 				2E0E7FCF2354C03F00235693 /* Features */,
 				2E0E7FDC2354C07D00235693 /* Resourse */,
@@ -269,16 +278,6 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		2E0E7FBC2354C01700235693 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				2E0E7FBD2354C01700235693 /* ProfileInfo.swift */,
-				2E0E7FBE2354C01700235693 /* BookedModel.swift */,
-				2E0E7FBF2354C01700235693 /* StadiumModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		2E0E7FC32354C02000235693 /* Service */ = {
 			isa = PBXGroup;
 			children = (
@@ -293,6 +292,7 @@
 			isa = PBXGroup;
 			children = (
 				2E0E7FE42354CCC400235693 /* profilee.png */,
+				2E77A833235899A4000F8966 /* Rectangle 19 (1).png */,
 				2E0E7FE32354CCC400235693 /* stadiumss.png */,
 				2E0E7FCB2354C03000235693 /* Добро пожаловать в Stadiums.png */,
 				2E0E7FCC2354C03000235693 /* logo.png */,
@@ -356,7 +356,12 @@
 		2E0E7FE72354FAE800235693 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				2E4D52DA2359AEB600E9755E /* TableviewExtension */,
+				2E77A8372358A030000F8966 /* Model */,
+				2E77A83C2358A12B000F8966 /* Repository */,
+				2E77A83F2358A133000F8966 /* ViewModel */,
 				2E0E7FE82354FAF700235693 /* Controllers */,
+				2E77A8302358966A000F8966 /* Cells */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -367,6 +372,48 @@
 				2E0E7FE92354FB1C00235693 /* ProfileTVC.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2E4D52DA2359AEB600E9755E /* TableviewExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2E4D52DB2359AED800E9755E /* TableView.swift */,
+			);
+			path = TableviewExtension;
+			sourceTree = "<group>";
+		};
+		2E77A8302358966A000F8966 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2E77A83123589696000F8966 /* AddStadiumCell.swift */,
+				2E77A83523589F7C000F8966 /* MyStadiumsTVCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2E77A8372358A030000F8966 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E77A8382358A051000F8966 /* ProfileInfo.swift */,
+				2E77A83A2358A08B000F8966 /* StadiumModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E77A83C2358A12B000F8966 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2E77A83D2358A12B000F8966 /* ProfileRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2E77A83F2358A133000F8966 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E77A8402358A133000F8966 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,6 +481,7 @@
 				2E0E7FBB2354C00C00235693 /* Main.storyboard in Resources */,
 				2E0E7FE62354CCC400235693 /* profilee.png in Resources */,
 				2E0E7F7B2354BF1100235693 /* LaunchScreen.storyboard in Resources */,
+				2E77A834235899A4000F8966 /* Rectangle 19 (1).png in Resources */,
 				2E0E7F782354BF1100235693 /* Assets.xcassets in Resources */,
 				2E0E7FE52354CCC400235693 /* stadiumss.png in Resources */,
 				2E0E7FCE2354C03000235693 /* logo.png in Resources */,
@@ -491,9 +539,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E77A8392358A051000F8966 /* ProfileInfo.swift in Sources */,
+				2E77A83B2358A08B000F8966 /* StadiumModel.swift in Sources */,
 				2E0E7FA12354BFFF00235693 /* Extantion.swift in Sources */,
 				2E0E7FC92354C02000235693 /* FIRRefManager.swift in Sources */,
-				2E0E7FC02354C01700235693 /* ProfileInfo.swift in Sources */,
 				2E0E7FD92354C03F00235693 /* EnterCodeVC.swift in Sources */,
 				2E0E7FA52354BFFF00235693 /* IQTitleBarButtonItem.swift in Sources */,
 				2E0E7FA02354BFFF00235693 /* Alert.swift in Sources */,
@@ -503,18 +552,20 @@
 				2E0E7FEA2354FB1C00235693 /* ProfileTVC.swift in Sources */,
 				2E0E7F712354BF1000235693 /* AppDelegate.swift in Sources */,
 				2E0E7FA22354BFFF00235693 /* Reachability.swift in Sources */,
+				2E4D52DC2359AED800E9755E /* TableView.swift in Sources */,
 				2E0E7FB22354BFFF00235693 /* IQUIView+Hierarchy.swift in Sources */,
 				2E0E7FB12354BFFF00235693 /* IQUITextFieldView+Additions.swift in Sources */,
 				2E0E7FAF2354BFFF00235693 /* IQUIScrollView+Additions.swift in Sources */,
+				2E77A83623589F7C000F8966 /* MyStadiumsTVCell.swift in Sources */,
 				2E0E7FDA2354C03F00235693 /* LoginVC.swift in Sources */,
 				2E0E7FDB2354C03F00235693 /* TabBarController.swift in Sources */,
-				2E0E7FC12354C01700235693 /* BookedModel.swift in Sources */,
-				2E0E7FC22354C01700235693 /* StadiumModel.swift in Sources */,
+				2E77A8412358A133000F8966 /* ProfileViewModel.swift in Sources */,
 				2E0E7FAE2354BFFF00235693 /* IQKeyboardManager.swift in Sources */,
 				2E0E7FAB2354BFFF00235693 /* IQKeyboardManagerConstants.swift in Sources */,
 				2E0E7FC72354C02000235693 /* ApiService.swift in Sources */,
 				2E0E7FA82354BFFF00235693 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
 				2E0E7FB32354BFFF00235693 /* IQNSArray+Sort.swift in Sources */,
+				2E77A83223589696000F8966 /* AddStadiumCell.swift in Sources */,
 				2E0E7FD82354C03F00235693 /* LoginViewModel.swift in Sources */,
 				2E0E7FB02354BFFF00235693 /* IQUIViewController+Additions.swift in Sources */,
 				2E0E7FA92354BFFF00235693 /* IQInvocation.swift in Sources */,
@@ -523,6 +574,7 @@
 				2E0E7FC82354C02000235693 /* LoginLogoutManager.swift in Sources */,
 				2E0E7FAA2354BFFF00235693 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
 				2E0E7FA32354BFFF00235693 /* IQTextView.swift in Sources */,
+				2E77A83E2358A12C000F8966 /* ProfileRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,7 +728,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.santineet.Stadiums;
+				PRODUCT_BUNDLE_IDENTIFIER = com.generix.BffAdmin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -695,7 +747,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.santineet.Stadiums;
+				PRODUCT_BUNDLE_IDENTIFIER = com.generix.BffAdmin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
